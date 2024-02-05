@@ -88,8 +88,8 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🇼‌🇦‌🇹‌🇨‌🇭‌ 🇴‌🇳‌🇱‌🇮‌🇳‌🇪‌", url=stream_link), #Stream Link
-                                                InlineKeyboardButton('🇩‌🇴‌🇼‌🇳‌🇱‌🇴‌🇦‌🇩‌', url=online_link)]]) #Download Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("sᴛʀᴇᴀᴍ 🎥", url=stream_link), #Stream Link
+                                                InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ⚡', url=online_link)]]) #Download Link
         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
@@ -118,8 +118,8 @@ async def channel_receive_handler(bot, broadcast):
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("🇼‌🇦‌🇹‌🇨‌🇭‌ 🇴‌🇳‌🇱‌🇮‌🇳‌🇪", url=stream_link),
-                    InlineKeyboardButton('🇩‌🇴‌🇼‌🇳‌🇱‌🇴‌🇦‌🇩‌', url=online_link)] 
+                    [InlineKeyboardButton("sᴛʀᴇᴀᴍ 🎥", url=stream_link),
+                    InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ⚡', url=online_link)] 
                 ]
             )
         )
@@ -132,4 +132,3 @@ async def channel_receive_handler(bot, broadcast):
     except Exception as e:
         await bot.send_message(chat_id=Var.BIN_CHANNEL, text=f"**#ERROR_TRACKEBACK:** `{e}`", disable_web_page_preview=True)
         print(f"Cᴀɴ'ᴛ Eᴅɪᴛ Bʀᴏᴀᴅᴄᴀsᴛ Mᴇssᴀɢᴇ!\nEʀʀᴏʀ:  **Give me edit permission in updates and bin Channel!{e}**")
-
