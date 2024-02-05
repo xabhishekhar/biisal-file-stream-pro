@@ -23,7 +23,7 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
 msg_text ="""<b>‣ ʏᴏᴜʀ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ! 😎
 
-‣ ᴛʜɪs ʟɪɴᴋ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴʟʏ ғᴏʀ 𝟸𝟺 ʜᴏᴜʀs.
+‣ ᴛʜɪs ʟɪɴᴋ ᴡɪʟʟ ᴠᴀʟɪᴅ ᴏɴʟʏ ғᴏʀ 𝟸𝟺 ʜᴏᴜʀs.
 
 
 ‣ ɢᴇᴛ <a href="https://t.me/atozmoviesflix">ᴍᴏʀᴇ ғɪʟᴇs</a></b> 🤡"""
