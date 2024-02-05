@@ -23,11 +23,13 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
 msg_text ="""<b>‣ ʏᴏᴜʀ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ! 😎
 
-‣ Fɪʟᴇ ɴᴀᴍᴇ : <i>{}</i>
+msg_text ="""<b>‣ 🇹‌🇭‌🇮‌🇸‌ 🇱‌🇮‌🇳‌🇰‌ 🇼‌🇮‌🇱‌🇱‌ 🇼‌🇴‌🇷‌🇰‌ 🇴‌🇳‌🇱‌🇾‌ 🇫‌🇴‌🇷‌ 24 🇭‌🇴‌🇺‌🇷‌🇸‌.
+
 ‣ Fɪʟᴇ ꜱɪᴢᴇ : {}
 
-⚡ <a href="{}">𝗙𝗔𝗦𝗧 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗</a>
-🎥 <a href="{}">𝗪𝗔𝗧𝗖𝗛 𝗢𝗡𝗟𝗜𝗡𝗘</a>
+⚡DOWNLOAD - url=stream_link
+
+🎥 WATCH ONLINE - url=online_link
 
 ‣ ɢᴇᴛ <a href="https://t.me/atozmoviesflix">ᴍᴏʀᴇ ғɪʟᴇs</a></b> 🤡"""
 
